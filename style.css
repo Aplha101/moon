@@ -1,0 +1,152 @@
+body {
+    font-size: 15pt;
+  background-color: #2f3136 ; 
+  margin-right:0;
+}
+h1,h2,h3,h4,h5,h6,p{
+  color:white;
+}
+h1{
+  text-align: center;
+}
+.dropdownmenu{
+  background: transparent ;
+}
+.column {
+  /* ================================= */
+  /* ========= For 9 card: 3 in one row */
+  /* ================================= */
+  float: left;
+  width: 33%;
+  padding: 0 15px;
+}
+.card{
+   /* ================================= */
+  /* ========= For background image for cards */
+  /* ================================= */
+  background-color: #2f3136 ;
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 250px 220px;
+  border: 2px solid white ;
+  padding: 15px;
+  margin: 10px 5px;
+  /* ================================= */
+  /* ========= For 9 card: 3 in one row */
+  /* ================================= */
+  padding: 16px;
+}
+/* ================================= */
+/* ========= For 9 card: Respinsive 3 in one row */
+/* ================================= */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.Botlist{
+  border: 2px solid white;
+}
+
+*{
+
+    padding: 0;
+
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #151320;
+    height: 100vh;
+    display: grid;
+    font-family: 'Fredoka One', cursive;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding: 20px;
+   grid-gap: 20px;
+}
+.card-text {
+/* ================================= */
+/* ========= For 9 card: Respinsive 3 in one row */
+/* ================================= */
+  margin-left: 10px;
+}
+.card-title {
+/* ================================= */
+/* ========= For 9 card: Respinsive 3 in one row */
+/* ================================= */
+  margin-left: 10px;
+}
+.card{
+    background-color: #1c1b29;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+}
+.container{
+    position: relative;
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+    margin: 10px;
+}
+.container:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+    
+}
+
+.details{
+    padding: 20px 10px;
+}
+.details>h3{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+.details>p{
+    color: #a0a0a0; 
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.all{
+  border-top: 2px solid white;
+  padding-top: 10px;
+}
+
+ul{
+  color:white;
+}
+
+
+.Follow{
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+a{
+  text-decoration:none;
+} 
+.row {margin: 10px -15px;}
+
+.row:after {
+  /* ========= For 9 card: 3 in one row */
+  content: "";
+  display: table;
+  clear: both;
+}
